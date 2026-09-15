@@ -2,7 +2,6 @@ import streamlit as st
 import numpy as np
 
 # Load the trained model
-model = joblib.load('logi.sav')
 
 # Streamlit app title
 st.title('Delivery Delay Prediction App')
